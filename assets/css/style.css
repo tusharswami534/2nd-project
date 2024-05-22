@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+section {
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+
+
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card {
+    width: 270px;
+    height: 350px;
+
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+
+
+}
+
+h2 {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 60%;
+}
+
+.icon {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    top: 306px;
+    left: 469px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+}
+
+.iconbox {
+    position: absolute;
+    top: 10%;
+    right: -45px;
+    transition: all 200ms linear;
+
+}
+
+.icon:hover svg path {
+    fill: #FFFFFF;
+}
+
+.icon:hover {
+    background-color: #FF5300;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.card:hover .iconbox {
+    right: 1px;
+}
+
+.position-relative {
+    position: relative;
+}
